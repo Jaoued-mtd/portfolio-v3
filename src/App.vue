@@ -66,4 +66,11 @@ html {
 .btn-cta:hover {
   opacity: 70%;
 }
+
+@media screen and (max-width: 400px) {
+  .btn-cta {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+}
 </style>

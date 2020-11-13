@@ -53,6 +53,7 @@
   width: 80%;
   margin: 20rem auto 10rem;
   text-align: center;
+  overflow: hidden;
 }
 
 .techno-title {
@@ -90,5 +91,31 @@ img {
 
 img:hover {
   opacity: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+  .techno-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .techno {
+    width: 100%;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .techno-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .techno-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>

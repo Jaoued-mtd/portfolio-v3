@@ -32,12 +32,11 @@ export default {
 </script>
 
 <style scoped>
-.bg-contact {
-  background: url("../../assets/images/right-bg.svg") no-repeat right;
-}
 .blue-circle-svg {
   background: url("../../assets/images/blue-circle.svg") no-repeat left;
+  overflow: hidden;
 }
+
 .home-contact {
   width: 80%;
   margin: auto;
@@ -70,7 +69,7 @@ export default {
   padding: 0 8rem;
 }
 .contact-right {
-  padding: 8rem;
+  align-self: center;
   text-align: center;
 }
 
@@ -81,5 +80,30 @@ export default {
   max-height: 30vh;
   overflow: hidden;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1150px) {
+  .contact-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .blue-circle-svg {
+    background: url("../../assets/images/blue-circle.svg") no-repeat left 8rem
+      top 7rem;
+  }
+  .bg-contact {
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact-col {
+    padding: 0;
+  }
+  .home-contact {
+    overflow: hidden;
+    width: 100%;
+  }
 }
 </style>

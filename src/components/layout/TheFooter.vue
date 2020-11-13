@@ -33,6 +33,7 @@
   padding: 5rem;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .footer-right,
@@ -57,5 +58,27 @@
 .icons {
   max-width: 2rem;
   margin-right: 2rem;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    padding: 0;
+    width: 60%;
+    margin: 5rem auto;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .footer-right,
+  .footer-left {
+    flex-direction: column;
+    align-items: center;
+  }
+  .icons {
+    margin: 1rem;
+  }
+  .footer-icon {
+    margin: 0;
+  }
 }
 </style>

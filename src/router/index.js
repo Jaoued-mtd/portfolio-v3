@@ -12,7 +12,7 @@ const routes = [
     component: Home,
 
     meta: {
-      title: "Jaoued MOUETAMID | Accueil",
+      title: "Accueil",
       transition: "overlay-up-full",
     },
   },
@@ -21,7 +21,7 @@ const routes = [
     name: "About",
     component: About,
     meta: {
-      title: "Jaoued MOUETAMID | A propos",
+      title: "A Propos",
       transition: "overlay-left-full",
     },
   },

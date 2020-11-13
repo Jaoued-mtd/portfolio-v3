@@ -28,13 +28,6 @@ export default {};
 </script>
 
 <style scoped>
-.right-bg {
-  background: url("../../assets/images/right-bg.svg") no-repeat right;
-}
-.left-bg {
-  background: url("../../assets/images/left-bg.svg") no-repeat left;
-}
-
 .home-main {
   text-align: center;
   width: 60%;
@@ -63,5 +56,32 @@ export default {};
 
 .home-span {
   font-weight: bold;
+}
+
+@media screen and (max-width: 1150px) {
+  .home-text {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .home-text {
+    font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .home-title {
+    font-size: 1.2rem;
+  }
+  .home-text {
+    font-size: 2rem;
+  }
+  .home-paragraph {
+    font-size: 0.9rem;
+  }
+  .home-main {
+    width: 100%;
+  }
 }
 </style>

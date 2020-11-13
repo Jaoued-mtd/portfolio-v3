@@ -3,9 +3,7 @@
     <input type="text" placeholder="Votre Nom ?" />
     <input type="email" placeholder="Votre Email ?" />
     <input type="text" placeholder="Votre Projet ?" />
-    <button style="margin-left: 5rem" type="submit" class="btn-cta">
-      Envoyer
-    </button>
+    <button type="submit" class="btn-cta btn-send">Envoyer</button>
   </form>
 </template>
 
@@ -24,5 +22,17 @@ input {
 
 input::placeholder {
   color: lightgray;
+}
+
+.btn-send {
+  margin-left: 5rem;
+}
+
+@media screen and (max-width: 400px) {
+  input {
+    width: 80%;
+    margin: auto;
+    font-size: 1rem;
+  }
 }
 </style>

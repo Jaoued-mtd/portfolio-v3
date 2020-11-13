@@ -130,6 +130,7 @@ export default {
 .home-work {
   width: 80%;
   margin: 8rem auto;
+  overflow: hidden;
 }
 
 .work-title {
@@ -144,7 +145,7 @@ export default {
 }
 
 .project-image {
-  width: 40rem;
+  width: 100%;
   transition: transform 1s ease;
   border-radius: 0.5rem;
 }
@@ -189,5 +190,52 @@ export default {
 
 .project-github {
   text-decoration: none;
+}
+
+@media screen and (max-width: 910px) {
+  .work-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-text {
+    margin-bottom: 8rem;
+  }
+  .work-col {
+    max-height: 80%;
+  }
+  .immo {
+    padding-top: 1rem;
+  }
+
+  .project-github {
+    display: none;
+  }
+  .home-work {
+    margin: 1rem auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .work-title {
+    font-size: 2rem;
+  }
+  .project-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-text {
+    margin-top: 2rem;
+  }
+
+  .home-work {
+    width: 90%;
+    text-align: center;
+  }
+  .work-col {
+    max-height: 60vh;
+  }
 }
 </style>

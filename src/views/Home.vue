@@ -3,7 +3,7 @@
     <HomeMain />
     <HomeWork />
     <HomeTechno />
-    <HomeContact />
+    <HomeContact id="contact" />
   </div>
 </template>
 
