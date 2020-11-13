@@ -17,7 +17,9 @@
           en Ile de France, spécialisé en
           <span class="home-span"> Javascript</span>.
         </p>
-        <button class="btn-cta">Contactez moi</button>
+        <button class="btn-cta">
+          <a href="mailto:jaouedlb@live.fr">Contactez moi</a>
+        </button>
       </div>
     </div>
   </div>
@@ -67,6 +69,21 @@ export default {};
 @media screen and (max-width: 1150px) {
   .home-text {
     font-size: 3.5rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .home-title {
+    font-size: 1.6rem;
+  }
+  .home-text {
+    font-size: 3.1rem;
+  }
+  .home-paragraph {
+    font-size: 1.2rem;
+  }
+  .home-main {
+    width: 100%;
   }
 }
 

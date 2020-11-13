@@ -67,6 +67,11 @@ html {
   opacity: 70%;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 400px) {
   .btn-cta {
     font-size: 0.8rem;

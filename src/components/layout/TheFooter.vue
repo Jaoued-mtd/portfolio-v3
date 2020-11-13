@@ -1,25 +1,53 @@
 <template>
   <footer class="footer">
     <div class="footer-left socials">
-      <img class="icons" src="../../assets/images/twitter.svg" />
-      <img class="icons" src="../../assets/images/linkedin1.svg" />
-      <img class="icons" src="../../assets/images/github.svg" />
-      <img class="icons" src="../../assets/images/instagram.svg" />
+      <a href="http://twitter.fr" class="icons-links">
+        <img
+          src="../../assets/images/twitter1.svg"
+          class="icons"
+          alt="twitter"
+          target="_blank"
+        />
+      </a>
+      <a
+        href="https://github.com/Jaoued-mtd"
+        target="_blank"
+        class="icons-links"
+      >
+        <img src="../../assets/images/github.svg" class="icons" alt="github" />
+      </a>
+      <a href="http://twitter.fr" class="icons-links">
+        <img
+          src="../../assets/images/instagram.svg"
+          class="icons"
+          alt="instgram"
+          target="_blank"
+        />
+      </a>
+      <a href="http://twitter.fr" class="icons-links">
+        <img
+          src="../../assets/images/linkedin1.svg"
+          class="icons"
+          alt="linkedin"
+          target="_blank"
+        />
+      </a>
     </div>
     <div class="footer-right">
-      <svg
-        width="1.5em"
-        height="1.5em"
-        viewBox="0 0 16 16"
-        class="bi bi-envelope footer-icon"
-        fill="currentColor"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
-        />
-      </svg>
+      <a href="mailto:jaouedlb@live.fr" style="color: black">
+        <svg
+          width="1.5em"
+          height="1.5em"
+          viewBox="0 0 16 16"
+          class="bi bi-envelope footer-icon"
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383l-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"
+          /></svg
+      ></a>
       <h4 class="navbar-brand">contact@jaouedcode.io</h4>
     </div>
   </footer>

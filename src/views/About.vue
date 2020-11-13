@@ -45,14 +45,6 @@ export default {
 
 
 <style scoped>
-.bg-about {
-  background: url("./../assets/images/right-bg.svg") no-repeat top right;
-}
-
-.bg-about-left {
-  background: url("./../assets/images/left-bg.svg") no-repeat top left;
-}
-
 .image {
   width: 12rem;
 }
@@ -62,9 +54,11 @@ export default {
   text-align: center;
 }
 .form {
-  width: 100%;
+  width: 80%;
   margin: 5rem auto;
+  overflow: hidden;
 }
+
 .about-text {
   font-size: 2rem;
 }
