@@ -18,9 +18,19 @@
     </div>
 
     <ul class="navbar-right">
-      <li class="navbar-links">Work</li>
-      <li class="navbar-links">About</li>
-      <li class="navbar-links">Services</li>
+      <router-link
+        to="/"
+        class="navbar-links"
+        style="text-decoration: none; color: black"
+        >Accueil</router-link
+      >
+      <router-link
+        to="/apropos"
+        class="navbar-links"
+        style="text-decoration: none; color: black"
+        >A Propos</router-link
+      >
+
       <li class="navbar-links">Contact</li>
     </ul>
   </div>
@@ -51,7 +61,14 @@
 }
 
 .navbar-icon {
-  margin-top: 1.2rem;
+  border: 1px solid gainsboro;
+  padding: 1.2rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.navbar-icon:hover {
+  background: black;
+  color: white;
 }
 
 .navbar-links {

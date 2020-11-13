@@ -3,6 +3,7 @@
     <HomeMain />
     <HomeWork />
     <HomeTechno />
+    <HomeContact />
   </div>
 </template>
 
@@ -11,12 +12,14 @@
 import HomeTechno from "../components/home/HomeTechno.vue";
 import HomeMain from "../components/home/HomeMain.vue";
 import HomeWork from "../components/home/HomeWork.vue";
+import HomeContact from "../components/home/HomeContact.vue";
 export default {
   name: "Home",
   components: {
     HomeWork,
     HomeMain,
     HomeTechno,
+    HomeContact,
   },
 };
 </script>

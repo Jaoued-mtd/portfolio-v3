@@ -1,13 +1,21 @@
 <template>
-  <TheHeader />
-  <router-view> </router-view>
+  <div class="div">
+    <TheHeader />
+    <vue-page-transition>
+      <router-view> </router-view>
+    </vue-page-transition>
+    <TheFooter />
+  </div>
 </template>
+
 
 <script>
 import TheHeader from "./components/layout/TheHeader";
+import TheFooter from "./components/layout/TheFooter";
 export default {
   components: {
     TheHeader,
+    TheFooter,
   },
 };
 </script>

@@ -1,16 +1,25 @@
 <template>
-  <div class="home-main">
-    <img class="image" src="../../assets/images/face-white.jpg" alt="memoji" />
-    <h5 class="home-title">Hello, C'est Jaoued 👋</h5>
-    <h1 class="home-text">
-      Creation digital,<br />
-      site web et application mobile.
-    </h1>
-    <p class="home-paragraph">
-      Je suis <span class="home-span">Developpeur Front-End</span><br />basé en
-      Ile de France, spécialisé en <span class="home-span"> Javascript</span>.
-    </p>
-    <button class="btn-cta">Contactez moi</button>
+  <div class="right-bg">
+    <div class="left-bg">
+      <div class="home-main">
+        <img
+          class="image"
+          src="../../assets/images/face-white.jpg"
+          alt="memoji"
+        />
+        <h5 class="home-title">Hello, C'est Jaoued 👋</h5>
+        <h1 class="home-text">
+          Création digital,<br />
+          site web et application mobile.
+        </h1>
+        <p class="home-paragraph">
+          Je suis <span class="home-span">Developpeur Front-End</span><br />basé
+          en Ile de France, spécialisé en
+          <span class="home-span"> Javascript</span>.
+        </p>
+        <button class="btn-cta">Contactez moi</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -19,6 +28,13 @@ export default {};
 </script>
 
 <style scoped>
+.right-bg {
+  background: url("../../assets/images/right-bg.svg") no-repeat right;
+}
+.left-bg {
+  background: url("../../assets/images/left-bg.svg") no-repeat left;
+}
+
 .home-main {
   text-align: center;
   width: 60%;

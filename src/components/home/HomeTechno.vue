@@ -46,9 +46,12 @@
 
 
 <style scoped>
+.bg-contact {
+  background: url("../../assets/images/right-bg.svg") no-repeat right;
+}
 .techno {
   width: 80%;
-  margin: 20rem auto;
+  margin: 20rem auto 10rem;
   text-align: center;
 }
 
