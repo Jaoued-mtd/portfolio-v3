@@ -18,7 +18,7 @@
           <span class="home-span"> Javascript</span>.
         </p>
         <button class="btn-cta">
-          <a href="mailto:jaouedlb@live.fr">Contactez moi</a>
+          <a href="mailto:contact@jaouedcode.com">Contactez moi</a>
         </button>
       </div>
     </div>

@@ -2,7 +2,7 @@
   <div class="the-header">
     <div class="navbar">
       <div class="navbar-left">
-        <a href="mailto:jaouedlb@live.fr" style="color: black">
+        <a href="mailto:contact@jaouedcode.com" style="color: black">
           <svg
             width="1.5em"
             height="1.5em"
@@ -17,7 +17,7 @@
             />
           </svg>
         </a>
-        <p class="navbar-brand">contact@jaouedcode.io</p>
+        <p class="navbar-brand">contact@jaouedcode.com</p>
       </div>
 
       <ul class="navbar-right desktop">
