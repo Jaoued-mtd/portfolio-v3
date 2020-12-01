@@ -94,7 +94,7 @@ export default {
 
 <style scoped>
 .navbar {
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding: 2rem;
   display: flex;
