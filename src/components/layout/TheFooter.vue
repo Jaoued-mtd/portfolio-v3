@@ -91,22 +91,27 @@
 @media screen and (max-width: 800px) {
   .footer {
     padding: 0;
-    width: 60%;
-    margin: 5rem auto;
+    width: 100%;
+    margin: 10rem auto;
     text-align: center;
     flex-direction: column;
     overflow: hidden;
   }
-  .footer-right,
-  .footer-left {
-    flex-direction: column;
-    align-items: center;
+
+  .footer-left,
+  .footer-right {
+    justify-content: center;
+    margin-bottom: 2rem;
   }
+
   .icons {
     margin: 1rem;
   }
   .footer-icon {
     margin: 0;
+  }
+  .navbar-brand {
+    display: none;
   }
 }
 </style>

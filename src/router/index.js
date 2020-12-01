@@ -12,7 +12,7 @@ const routes = [
     component: Home,
 
     meta: {
-      title: "Accueil",
+      title: "Portfolio | Accueil",
       transition: "overlay-up-full",
     },
   },
@@ -21,7 +21,7 @@ const routes = [
     name: "About",
     component: About,
     meta: {
-      title: "A Propos",
+      title: "Portfolio | A Propos",
       transition: "overlay-left-full",
     },
   },

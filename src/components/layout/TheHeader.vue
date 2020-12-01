@@ -151,7 +151,6 @@ export default {
 }
 
 .mobile-navbar {
-  background: #cdcdcd;
   border-radius: 0.6rem;
   margin: 0.6rem;
 }

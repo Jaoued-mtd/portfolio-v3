@@ -48,6 +48,7 @@ html {
   font-family: "PlusJakartaDisplay ", sans-serif;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .btn-cta {
@@ -76,6 +77,8 @@ a {
   .btn-cta {
     font-size: 0.8rem;
     padding: 1rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
   }
 }
 </style>

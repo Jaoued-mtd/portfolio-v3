@@ -24,11 +24,11 @@
           <span class="bold">Marketing Digital à l'ESCE Paris</span> j'ai suivi
           une formation accéléré en developpement informatique au sein de
           l'ecole <span class="bold">EPITECH Paris</span>. <br /><br />Ce
-          portfolio a pour but de présenter les différents projets sur lesquels
-          j'ai travaillé ces dernières mois.
+          <span class="bold">portfolio</span> a pour but de présenter les
+          différents projets sur lesquels j'ai travaillé ces dernières mois.
         </p>
 
-        <ContactForm class="form" />
+        <ContactForm id="contact" class="form" />
       </div>
     </div>
   </div>
@@ -72,9 +72,15 @@ export default {
 .bg-image {
   height: 250px;
   width: 250px;
-  background-color: #F4FCFD;
+  background-color: #f4fcfd;
   border-radius: 50%;
   text-align: center;
   margin: 2rem auto;
+}
+
+@media screen and (max-width: 550px) {
+  .about-text {
+    font-size: 1.5rem;
+  }
 }
 </style>

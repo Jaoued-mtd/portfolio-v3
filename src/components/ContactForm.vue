@@ -24,10 +24,6 @@ input::placeholder {
   color: lightgray;
 }
 
-.btn-send {
-  margin-left: 5rem;
-}
-
 @media screen and (max-width: 400px) {
   input {
     width: 80%;
