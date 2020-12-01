@@ -12,7 +12,7 @@
         <h1 class="about-title">A propos</h1>
 
         <p class="about-text">
-          Bonjour, je m'appelle <span class="bold">Jaoued MOUETAMID</span>,
+          Bonjour, je m'appelle <span class="bold">Jaoued MOUETAMID</span><br />
           developpeur spécialisé en <span class="bold">Javascript</span> en Ile
           de France. ✌️<br /><br />
           Ma spécialité est de construire des
@@ -20,12 +20,12 @@
           définition du produit pour répondre au mieux aux besoins, en passant
           par la conception de l'outil, l'intégration des pages et le
           développement des différentes fonctionnalités.<br /><br />
-          Issue d'une formation en Ecole de Commerce spécialisé en
+          Issu d'une formation en Ecole de Commerce spécialisé en
           <span class="bold">Marketing Digital à l'ESCE Paris</span> j'ai suivi
-          une formation accéléré en developpement informatique au sein de
+          une formation accélérée en developpement informatique au sein de
           l'ecole <span class="bold">EPITECH Paris</span>. <br /><br />Ce
           <span class="bold">portfolio</span> a pour but de présenter les
-          différents projets sur lesquels j'ai travaillé ces dernières mois.
+          différents projets sur lesquels j'ai travaillé ces derniers mois.
         </p>
 
         <ContactForm id="contact" class="form" />

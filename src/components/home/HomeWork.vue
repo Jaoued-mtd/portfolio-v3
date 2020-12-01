@@ -66,7 +66,7 @@ export default {
           image: " https://i.ibb.co/KVZ4QCY/Sans-titre-4.png",
           title: "La Bredouille",
           description:
-            "Projet réalisé sur VUEJS afin d'améliorer mes connaissances du Vuex-store, Vue-Router et découvrir les nouveautes de la version 3. Les données sont stockées sur MongoDB ATLAS ainsi que Cloudinary, l'API est deployé en utilisant Heroku et netlify pour VUEJS. Front réalisé en Bootstrap entièrement responsive.",
+            "Projet réalisé sur VUEJS afin d'améliorer mes connaissances du Vuex-store, Vue-Router et découvrir les nouveautés de la version 3. Les données sont stockées sur MongoDB ATLAS ainsi que Cloudinary, l'API est deployé en utilisant Heroku et Netlify pour VUEJS. Front réalisé en Bootstrap entièrement responsive.",
           link: "https://la-bredouille.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -103,7 +103,7 @@ export default {
           image: "https://i.ibb.co/0Jj7J7F/projet-immo.png",
           title: "Real Estate",
           description:
-            "Projet réalisé pour parfaire mon apprentissage du developpement Back End avec expressJS. Mise en place d'une API, d'un cluster MongoDB.",
+            "Projet réalisé pour parfaire mon apprentissage du développement Back End avec ExpressJS. Mise en place d'une API, d'un cluster MongoDB.",
           link: "https://realimmov1.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -128,7 +128,7 @@ export default {
           image: "https://i.ibb.co/MBppbCx/Sans-titre-3.png",
           title: "Easyimo",
           description:
-            " Dashboard réalisé en projet de fin d'étude, il permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de taches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grace à des graphiques ChartJS.   ",
+            " Dashboard réalisé en projet de fin d'étude, il permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques ChartJS.   ",
           link: false,
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -139,7 +139,7 @@ export default {
           image: "https://i.ibb.co/F4w2qVZ/Sans-titre-1.png",
           title: "Jeux Partage",
           description:
-            " Site de partage de jeux de société réalisé comme projet de fin d'etude. Avec la possibilité pour l'utilisateur de rechercher les jeux disponbiles autour de sa position en utilisant l'API google map. Une fois un jeu selectionné l'utilisateur peut verifier la disponibilité grace à un calendrier puis effectuer une reservation. Création de l'API avec expressJS, l'application à été realisé en TAILWIND CSS.",
+            "Site de partage de jeux de société réalisé comme projet de fin d'étude. Avec la possibilité pour l'utilisateur de rechercher les jeux disponibles autour de sa position en utilisant l'API google map. Une fois un jeu selectionné l'utilisateur peut verifier la disponibilité grâce à un calendrier puis éffectuer une réservation. Création de l'API avec expressJS, l'application a été realisée en TAILWIND CSS.",
           link: "https://gameproj.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
