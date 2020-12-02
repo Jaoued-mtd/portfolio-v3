@@ -193,7 +193,7 @@ export default {
 }
 
 .project-text {
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0 1rem;
   margin-bottom: 4rem;
 }
@@ -204,7 +204,6 @@ export default {
 }
 
 .project-header {
-  display: flex;
   justify-content: space-between;
   padding: 0 1rem;
 }
@@ -214,12 +213,6 @@ export default {
 }
 
 @media screen and (max-width: 910px) {
-  .work-grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   .project-text {
     margin-bottom: 8rem;
   }
@@ -232,15 +225,25 @@ export default {
   }
 }
 
-@media screen and (max-width: 400px) {
-  .work-title {
-    font-size: 2rem;
+@media screen and (max-width: 1250px) {
+  .work-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
-  .project-header {
+}
+
+@media screen and (max-width: 750px) {
+  .work-grid {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .work-title {
+    font-size: 2rem;
+  }
+
   .project-text {
     margin-top: 2rem;
   }
