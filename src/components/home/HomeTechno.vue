@@ -86,11 +86,11 @@
 }
 
 img {
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 img:hover {
-  opacity: 100%;
+  opacity: 1;
 }
 
 @media screen and (max-width: 1150px) {
