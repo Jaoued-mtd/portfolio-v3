@@ -93,7 +93,7 @@ img:hover {
   opacity: 1;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
   .techno-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
