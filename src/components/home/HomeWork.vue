@@ -128,7 +128,7 @@ export default {
           image: "https://i.ibb.co/MBppbCx/Sans-titre-3.png",
           title: "Easyimo",
           description:
-            " Dashboard réalisé en projet de fin d'étude, il permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques ChartJS.   ",
+            "Dashboard réalisé en projet de fin d'étude, il permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques ChartJS.   ",
           link: false,
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
