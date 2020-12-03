@@ -43,8 +43,24 @@
             />
           </div>
         </div>
-        <p class="project-text">
-          {{ project.description }}
+        <div
+          class="button-more-info"
+          v-if="!project.moreInfo"
+          @click="project.moreInfo = !project.moreInfo"
+        >
+          <i class="fas fa-plus"></i>
+        </div>
+        <div
+          class="button-more-info"
+          v-else
+          @click="project.moreInfo = !project.moreInfo"
+        >
+          <i class="fas fa-minus"></i>
+        </div>
+        <p class="project-text" v-if="project.moreInfo">
+          {{ project.application }}<br /><br />
+
+          {{ project.technique }}
         </p>
         <!-- <a
           href="https://github.com/Jaoued-mtd"
@@ -65,19 +81,25 @@ export default {
         {
           image: " https://i.ibb.co/KVZ4QCY/Sans-titre-4.png",
           title: "La Bredouille",
-          description:
-            "Projet réalisé sur VUEJS afin d'améliorer mes connaissances du Vuex-store, Vue-Router et découvrir les nouveautés de la version 3. Les données sont stockées sur MongoDB ATLAS ainsi que Cloudinary, l'API est deployé en utilisant Heroku et Netlify pour VUEJS. Front réalisé en Bootstrap entièrement responsive.",
+          application:
+            "Site de petites annonces, l’utilisateur à la possibilité de poster une annonce, la modifier ou la supprimer. Il peut également rechercher et filtrer les annonces, contacter les vendeurs ou encore modifier ses informations via son profil.",
+          technique:
+            "Le stockage des données via MongoDB ainsi que cloudinary. Backend réalisé avec Strapi, Frontend réalisé avec VueJS et Bootstrap",
           link: "https://la-bredouille.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
             "https://d2zv2ciw0ln4h1.cloudfront.net/uploads/logo-strapi-black-blue.png_71430fb155.png",
           ],
+          moreInfo: false,
         },
         {
           image: "https://i.ibb.co/fDqM3Zp/Sans-titre-5.png",
           title: "My Coffee",
-          description:
-            "Projet MERN découverte de Redux, des reacts hooks. Eshop avec gestion des commandes pour l'administrateur son espace CRUD. Possibilité pour l'utilisateur de commander,payer par PayPal ou carte de crédit, review un produit..",
+          application:
+            "Eshop, l’utilisateur peut ajouter des articles dans son panier, commander indiquer ses informations de livraisons. Plusieurs mode de paiement disponibles PayPal, CB.. Suivi des commandes, notation des articles ou modification des informations via la page profil. L’administrateur peut gérer les commandes, les utilisateurs et les produits via son espace de gestion.",
+          technique:
+            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, FrontEnt réalisé avec ReactJS et Bootstrap.",
+
           link: "https://coffee-mern.herokuapp.com/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
@@ -85,12 +107,16 @@ export default {
             "https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/MongoDB-Logo.svg/1280px-MongoDB-Logo.svg.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png",
           ],
+          moreInfo: false,
         },
         {
           image: "https://i.ibb.co/7kGVYNt/Sans-titre-6.png",
           title: "Blog",
-          description:
-            "Projet Stack MERN blog avec espace d'Administration, CRUD utilisateurs, posts, commentaires.. ",
+          application:
+            "Blog, l’utilisateur peut lire commenter des posts  modifier ses informations via son profil. L’administrateur peut gérer les posts, les utilisateurs et les produits via son espace de gestion.",
+          technique:
+            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, FrontEnt réalisé avec ReactJS et Bootstrap.",
+
           link: "https://jaoued-blog.herokuapp.com/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1280px-React-icon.svg.png",
@@ -98,12 +124,15 @@ export default {
             "https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/MongoDB-Logo.svg/1280px-MongoDB-Logo.svg.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png",
           ],
+          moreInfo: false,
         },
         {
           image: "https://i.ibb.co/0Jj7J7F/projet-immo.png",
           title: "Real Estate",
-          description:
-            "Projet réalisé pour parfaire mon apprentissage du développement Back End avec ExpressJS. Mise en place d'une API, d'un cluster MongoDB.",
+          application:
+            "Site pour agent immobilier, celui ci à la possibilité de poster ses annonces, de les gérer grace à un panel d’administration. Les visiteurs peuvent afficher les annonces, les triers et contacter l’agent immobilier.",
+          technique:
+            "Le stockage des données via MongoDB. Backend API REST avec Express JS, Frontend réalisé avec VueJS et Bootstrap.",
           link: "https://realimmov1.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -111,6 +140,7 @@ export default {
             "https://upload.wikimedia.org/wikipedia/fr/thumb/4/45/MongoDB-Logo.svg/1280px-MongoDB-Logo.svg.png",
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png",
           ],
+          moreInfo: false,
         },
 
         // {
@@ -127,19 +157,24 @@ export default {
         {
           image: "https://i.ibb.co/MBppbCx/Sans-titre-3.png",
           title: "Easyimo",
-          description:
-            "Dashboard réalisé en projet de fin d'étude, il permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques ChartJS.   ",
+          application:
+            "Dashboard qui permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques.",
+          technique:
+            "Le stockage des données via une base de donnée mysql. Backend en Php  avec Laravel, Frontend réalisé avec VueJS et Bootstrap.",
           link: false,
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
             "https://www.id-meneo.com/corporate/wp-content/uploads/2017/03/Laravel_logo_wordmark_logotype.png",
           ],
+          moreInfo: false,
         },
         {
           image: "https://i.ibb.co/F4w2qVZ/Sans-titre-1.png",
           title: "Jeux Partage",
-          description:
-            "Site de partage de jeux de société réalisé comme projet de fin d'étude. Avec la possibilité pour l'utilisateur de rechercher les jeux disponibles autour de sa position en utilisant l'API google map. Une fois un jeu selectionné l'utilisateur peut verifier la disponibilité grâce à un calendrier puis éffectuer une réservation. Création de l'API avec expressJS, l'application a été realisée en TAILWIND CSS.",
+          application:
+            "Site de partage de jeux de société avec la possibilité pour l'utilisateur de rechercher les jeux disponibles autour de sa localisation en utilisant l'API. Une fois un jeu sélectionné l'utilisateur peut verifier la disponibilité grâce à un calendrier puis effectuer une réservation. L’administrateur peut gérer les jeux, les utilisateurs et les reservations via son espace de gestion.",
+          technique:
+            "Le stockage des données via MongoDB. Backend API REST avec Express JS, Frontend réalisé avec VueJS et Tailwind CSS.",
           link: "https://gameproj.netlify.app/",
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -148,6 +183,7 @@ export default {
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png",
           ],
           button: true,
+          moreInfo: false,
         },
       ],
     };
@@ -210,6 +246,21 @@ export default {
 
 .project-github {
   text-decoration: none;
+}
+
+.button-more-info {
+  cursor: pointer;
+  text-align: center;
+  width: 20%;
+
+  margin: 2rem auto;
+  padding: 0.5rem 1rem;
+}
+
+.button-more-info:hover {
+  font-weight: bold;
+  background: black;
+  color: white;
 }
 
 @media screen and (max-width: 910px) {
