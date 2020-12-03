@@ -27,12 +27,11 @@
           <span class="bold">portfolio</span> a pour but de présenter les
           différents projets sur lesquels j'ai travaillé ces derniers mois.
         </p>
-
-        <button class="btn-cta button">
-          <a href="mailto:contact@jaouedcode.com">Contactez moi</a>
-        </button>
       </div>
     </div>
+    <button class="btn-cta button">
+      <a href="mailto:contact@jaouedcode.com">Contactez moi</a>
+    </button>
   </div>
 </template>
 
@@ -50,6 +49,9 @@ export default {};
   margin: auto;
   text-align: center;
 }
+.bg-about {
+  text-align: center;
+}
 .form {
   width: 80%;
   margin: 5rem auto;
@@ -57,8 +59,8 @@ export default {};
 }
 
 .button {
-  margin-top: 2rem;
-  padding: 2rem 4rem;
+  text-align: center;
+  margin: auto;
 }
 
 .about-text {

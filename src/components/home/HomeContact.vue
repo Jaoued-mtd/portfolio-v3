@@ -104,5 +104,8 @@ export default {
     overflow: hidden;
     width: 100%;
   }
+  .button {
+    padding: 1rem;
+  }
 }
 </style>
