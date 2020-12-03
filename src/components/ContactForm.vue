@@ -1,5 +1,5 @@
 <template>
-  <form>
+  <form action=”mailto:contact@jaouedcode.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
     <input type="text" placeholder="Votre Nom ?" />
     <input type="email" placeholder="Votre Email ?" />
     <input type="text" placeholder="Votre Projet ?" />
@@ -15,7 +15,6 @@ input {
   border: 0;
   border-bottom: 1px solid grey;
   outline: none;
-
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
