@@ -51,7 +51,7 @@
 }
 .techno {
   width: 80%;
-  margin: 20rem auto 10rem;
+  margin: 10rem auto 10rem;
   text-align: center;
   overflow: hidden;
 }

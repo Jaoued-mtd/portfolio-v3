@@ -7,14 +7,13 @@
           <div class="blue-circle">
             <div class="contact-col contact-left">
               <img class="contact-image" src="../../assets/images/face-2.png" />
-              <h1 class="contact-subTitle">
-                Un Projet ?<br />
-                Contactez moi !
-              </h1>
+              <h1 class="contact-subTitle">Un Projet ?<br /></h1>
             </div>
           </div>
           <div class="contact-col contact-right">
-            <ContactForm />
+            <button class="btn-cta button">
+              <a href="mailto:contact@jaouedcode.com">Contactez moi</a>
+            </button>
           </div>
         </div>
       </div>
@@ -23,11 +22,8 @@
 </template>
 
 <script>
-import ContactForm from "../ContactForm";
 export default {
-  components: {
-    ContactForm,
-  },
+  components: {},
 };
 </script>
 
@@ -46,11 +42,14 @@ export default {
 .contact-title {
   margin-bottom: 5rem;
 }
+.button {
+  padding: 2rem 4rem;
+}
 
 .blue-circle {
   height: 600px;
   width: 600px;
-  background-color: #F4FCFD;
+  background-color: #f4fcfd;
   border-radius: 50%;
   display: inline-block;
 }

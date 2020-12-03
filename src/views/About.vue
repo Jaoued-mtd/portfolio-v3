@@ -28,19 +28,16 @@
           différents projets sur lesquels j'ai travaillé ces derniers mois.
         </p>
 
-        <ContactForm id="contact" class="form" />
+        <button class="btn-cta button">
+          <a href="mailto:contact@jaouedcode.com">Contactez moi</a>
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import ContactForm from "../components/ContactForm";
-export default {
-  components: {
-    ContactForm,
-  },
-};
+export default {};
 </script>
 
 
@@ -57,6 +54,11 @@ export default {
   width: 80%;
   margin: 5rem auto;
   overflow: hidden;
+}
+
+.button {
+  margin-top: 2rem;
+  padding: 2rem 4rem;
 }
 
 .about-text {
