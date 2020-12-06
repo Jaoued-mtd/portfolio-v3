@@ -96,9 +96,9 @@ export default {
           image: "https://i.ibb.co/fDqM3Zp/Sans-titre-5.png",
           title: "My Coffee",
           application:
-            "Eshop, l’utilisateur peut ajouter des articles dans son panier, commander indiquer ses informations de livraisons. Plusieurs mode de paiement disponibles PayPal, CB.. Suivi des commandes, notation des articles ou modification des informations via la page profil. L’administrateur peut gérer les commandes, les utilisateurs et les produits via son espace de gestion.",
+            "Eshop, l’utilisateur peut ajouter des articles dans son panier, commander, indiquer ses informations de livraison. Plusieurs modes de paiement sont disponible PayPal, CB.. Suivre sa commande, noter des articles ou modifier ses informations via son profil. L’administrateur peut gérer les commandes, les utilisateurs et les produits via son espace de gestion.",
           technique:
-            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, FrontEnt réalisé avec ReactJS et Bootstrap.",
+            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, Frontend réalisé avec ReactJS et Bootstrap.",
 
           link: "https://coffee-mern.herokuapp.com/",
           techno: [
@@ -113,9 +113,9 @@ export default {
           image: "https://i.ibb.co/7kGVYNt/Sans-titre-6.png",
           title: "Blog",
           application:
-            "Blog, l’utilisateur peut lire commenter des posts  modifier ses informations via son profil. L’administrateur peut gérer les posts, les utilisateurs et les produits via son espace de gestion.",
+            "Blog, l’utilisateur peut lire, commenter des posts ou modifier ses informations via son profil. L’administrateur peut gérer les posts, les utilisateurs et les produits via son espace de gestion.",
           technique:
-            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, FrontEnt réalisé avec ReactJS et Bootstrap.",
+            "Le stockage des données via MongoDB. BackEnd API REST avec Express JS, Frontend réalisé avec ReactJS et Bootstrap.",
 
           link: "https://jaoued-blog.herokuapp.com/",
           techno: [
@@ -130,7 +130,7 @@ export default {
           image: "https://i.ibb.co/0Jj7J7F/projet-immo.png",
           title: "Real Estate",
           application:
-            "Site pour agent immobilier, celui ci à la possibilité de poster ses annonces, de les gérer grace à un panel d’administration. Les visiteurs peuvent afficher les annonces, les triers et contacter l’agent immobilier.",
+            "Site pour l'agent immobilier, celui ci à la possibilité de poster ses annonces, de les gérer grâce à un espace de gestion. Les visiteurs peuvent afficher les annonces, les trier et contacter l’agent immobilier.",
           technique:
             "Le stockage des données via MongoDB. Backend API REST avec Express JS, Frontend réalisé avec VueJS et Bootstrap.",
           link: "https://realimmov1.netlify.app/",
