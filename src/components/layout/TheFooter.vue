@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="footer-left socials">
-      <a href="http://twitter.fr" class="icons-links">
+      <a href="https://twitter.com/CodeJaoued" class="icons-links">
         <img
           src="../../assets/images/twitter1.svg"
           class="icons"
@@ -16,7 +16,7 @@
       >
         <img src="../../assets/images/github.svg" class="icons" alt="github" />
       </a>
-      <a href="http://twitter.fr" class="icons-links">
+      <a href="https://twitter.com/CodeJaoued" class="icons-links">
         <img
           src="../../assets/images/instagram.svg"
           class="icons"
@@ -24,7 +24,7 @@
           target="_blank"
         />
       </a>
-      <a href="http://twitter.fr" class="icons-links">
+      <a href="www.linkedin.com/in/jaoued-mouetamid" class="icons-links">
         <img
           src="../../assets/images/linkedin1.svg"
           class="icons"
