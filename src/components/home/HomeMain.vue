@@ -13,8 +13,8 @@
           site web et application mobile.
         </h1>
         <p class="home-paragraph">
-          Je suis <span class="home-span">Developpeur Front-End</span><br />basé
-          en Ile de France, spécialisé en
+          Je suis <span class="home-span">Developpeur Full-Stack Junior</span
+          ><br />basé en Ile de France, spécialisé en
           <span class="home-span"> Javascript</span>.
         </p>
         <button class="btn-cta">
