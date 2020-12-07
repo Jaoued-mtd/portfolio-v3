@@ -158,9 +158,9 @@ export default {
           image: "https://i.ibb.co/MBppbCx/Sans-titre-3.png",
           title: "Easyimo",
           application:
-            "Dashboard qui permet à un agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts,chiffre d'affaires grâce à des graphiques.",
+            "Dashboard qui permet à l'agent immobilier de gérer ses clients vendeurs et acheteurs mais aussi d'enregistrer une liste de tâches. Il peut retrouver ses clients sur une carte interactive, mais aussi suivre ses statistiques de ventes,contacts et chiffre d'affaires grâce à des graphiques.",
           technique:
-            "Le stockage des données via une base de donnée mysql. Backend en Php  avec Laravel, Frontend réalisé avec VueJS et Bootstrap.",
+            "Le stockage des données via une base de donnée mysql. Backend en Php avec Laravel, Frontend réalisé avec VueJS et Bootstrap.",
           link: false,
           techno: [
             "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1184px-Vue.js_Logo_2.svg.png",
@@ -172,7 +172,7 @@ export default {
           image: "https://i.ibb.co/F4w2qVZ/Sans-titre-1.png",
           title: "Jeux Partage",
           application:
-            "Site de partage de jeux de société avec la possibilité pour l'utilisateur de rechercher les jeux disponibles autour de sa localisation en utilisant l'API. Une fois un jeu sélectionné l'utilisateur peut verifier la disponibilité grâce à un calendrier puis effectuer une réservation. L’administrateur peut gérer les jeux, les utilisateurs et les reservations via son espace de gestion.",
+            "Site de partage de jeux de société avec la possibilité pour l'utilisateur de rechercher les jeux disponibles autour de sa localisation via la carte interactive. Une fois un jeu sélectionné l'utilisateur peut verifier la disponibilité grâce à un calendrier puis effectuer une réservation. L’administrateur peut gérer les jeux, les utilisateurs et les reservations via son espace de gestion.",
           technique:
             "Le stockage des données via MongoDB. Backend API REST avec Express JS, Frontend réalisé avec VueJS et Tailwind CSS.",
           link: "https://gameproj.netlify.app/",

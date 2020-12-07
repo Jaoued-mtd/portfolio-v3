@@ -9,7 +9,7 @@
         />
         <h5 class="home-title">Hello, C'est Jaoued 👋</h5>
         <h1 class="home-text">
-          Création digital,<br />
+          Création digitale,<br />
           site web et application mobile.
         </h1>
         <p class="home-paragraph">
