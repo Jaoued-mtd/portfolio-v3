@@ -25,7 +25,7 @@
           alt="github"
         />
       </a>
-      <a href="#" class="icons-links">
+      <a href="https://instagram.com" class="icons-links">
         <img
           src="../../assets/images/instagram.svg"
           class="icons"
@@ -34,7 +34,7 @@
         />
       </a>
       <a
-        href="www.linkedin.com/in/jaoued-mouetamid"
+        href="https://linkedin.com/in/jaoued-mouetamid"
         target="_blank"
         class="icons-links"
       >
